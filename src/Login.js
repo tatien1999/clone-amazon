@@ -22,7 +22,7 @@ function Login({setUser}) {
     return (
         <Container>
             <Content>
-                <AmazonLogo scr='https://cdn.iconscout.com/icon/free/png-256/amazon-1869030-1583154.png'/>
+                <AmazonLogo src='https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/amazon-512.png'/>
                 <h1>Sign into Amazon</h1>
                 <LoginButton
                     onClick={signIn}
@@ -54,8 +54,7 @@ const Content = styled.div`
 `
 
 const AmazonLogo = styled.img`
-    height: 100px;
-    margin-bottom: 40px;
+    height: 150px;
 `
 
 const LoginButton = styled.button`
